@@ -4,6 +4,7 @@ import {UIView, UIRouterModule} from 'ui-router-ng2';
 import {STATES, MyUIRouterConfig} from './routes';
 
 import {HelloComponent} from './components/hello/hello';
+import {ReportsComponent} from './components/reports/list';
 
 @NgModule({
   imports: [
@@ -11,7 +12,8 @@ import {HelloComponent} from './components/hello/hello';
     UIRouterModule.forRoot({states: STATES, configClass: MyUIRouterConfig})
   ],
   declarations: [
-    HelloComponent
+    HelloComponent,
+    ReportsComponent
   ],
   bootstrap: [UIView]
 })

@@ -9,6 +9,8 @@ $brand-white: #ffffff;
 .jumbotron {
   background-color: $brand-grey;
 
+  ul,
+  span,
   p {
     color: $brand-white;
   }

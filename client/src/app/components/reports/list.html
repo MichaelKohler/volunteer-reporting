@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <h1>Reports List</h1>
+  <h2>RAW</h2>
+  <pre>
+    {{ reports }}
+  </pre>
+  <h2>Formatted</h2>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let report of reports">
+      {{ report }}
+    </li>
+  </ul>
+</div>
