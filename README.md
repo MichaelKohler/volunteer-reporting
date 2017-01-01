@@ -9,7 +9,13 @@ The goal is to provide a reporting platform which automatically creates reports 
 Start the server
 ---
 
-TBD
+```
+$ cd server
+$ npm install
+$ npm start
+```
+
+Now you can reach the API through ```localhost:3000```.
 
 Start the client
 ---
