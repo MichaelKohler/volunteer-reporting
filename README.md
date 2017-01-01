@@ -11,6 +11,7 @@ Start the server
 
 Requirements:
 * Node 7 or higher
+* MongoDB locally installed on your machine
 
 ```
 $ cd server
