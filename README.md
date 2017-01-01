@@ -30,7 +30,11 @@ $ npm run watch
 Start the client
 ---
 
-TBD
+Make sure you have installed gulp and gulp-cli.
+See: https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md for reference.
+
+Use the "gulp serve" command for development.
+Use the "gulp build" command to build a dist folder.
 
 Start the datasources jobs
 ---
