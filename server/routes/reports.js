@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const ensureLoggedIn = require('connect-ensure-login').ensureLoggedIn();
 
 const router = express.Router();
 
@@ -10,7 +11,7 @@ router.get('/', (req, res, next) => {
   });
 });
 
-router.post('/', (req, res, next) => {
+router.post('/', ensureLoggedIn, (req, res, next) => {
   const Report = mongoose.model('Report');
 
   let newReport = new Report();

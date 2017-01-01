@@ -9,6 +9,7 @@
     "angular-ui-bootstrap": "^2.4.0",
     "bootstrap": "^4.0.0-alpha.5",
     "core-js": "^2.4.1",
+    "gulp": "github:gulpjs/gulp#4ed9a4a3275559c73a396eff7e1fde3824951ebb",
     "mofo-bootstrap": "^2.0.1",
     "rxjs": "5.0.0-beta.12",
     "ui-router-ng2": "1.0.0-beta.3",
