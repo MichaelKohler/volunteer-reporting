@@ -9,6 +9,9 @@ module.exports = function () {
       ]
     },
     open: false,
-    port: 3002
+    port: 3001,
+    ui: {
+      port: 3002
+    }
   };
 };

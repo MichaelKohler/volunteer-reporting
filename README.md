@@ -36,6 +36,9 @@ See: [Readme](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 Use the `gulp serve` command for development.
 Use the `gulp build` command to build a dist folder.
 
+You can reach the Frontend trough ```http://localhost:3001```.
+The [Browsersync UI](https://browsersync.io) can be reached through ```http://localhost:3002```.
+
 Start the datasources jobs
 ---
 
