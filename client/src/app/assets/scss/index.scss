@@ -1,5 +1,15 @@
+$brand-grey: #4d4f53;
+$brand-white: #ffffff;
+
 @import "~mofo-bootstrap/dest/css/mofo-bootstrap.css";
 
 .main-content {
   margin-top: 50px;
+}
+.jumbotron {
+  background-color: $brand-grey;
+
+  p {
+    color: $brand-white;
+  }
 }
